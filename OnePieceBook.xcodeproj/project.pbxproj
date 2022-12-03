@@ -13,6 +13,8 @@
 		F390BFCF293B849700AEF7E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F390BFCD293B849700AEF7E0 /* Main.storyboard */; };
 		F390BFD1293B849900AEF7E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F390BFD0293B849900AEF7E0 /* Assets.xcassets */; };
 		F390BFD4293B849900AEF7E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F390BFD2293B849900AEF7E0 /* LaunchScreen.storyboard */; };
+		F390BFDC293B873100AEF7E0 /* detailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F390BFDB293B873100AEF7E0 /* detailsVC.swift */; };
+		F390BFDE293B8A9500AEF7E0 /* OnePieceClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F390BFDD293B8A9500AEF7E0 /* OnePieceClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		F390BFD0293B849900AEF7E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F390BFD3293B849900AEF7E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F390BFD5293B849900AEF7E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F390BFDB293B873100AEF7E0 /* detailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailsVC.swift; sourceTree = "<group>"; };
+		F390BFDD293B8A9500AEF7E0 /* OnePieceClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnePieceClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +63,12 @@
 				F390BFC7293B849700AEF7E0 /* AppDelegate.swift */,
 				F390BFC9293B849700AEF7E0 /* SceneDelegate.swift */,
 				F390BFCB293B849700AEF7E0 /* ViewController.swift */,
+				F390BFDB293B873100AEF7E0 /* detailsVC.swift */,
 				F390BFCD293B849700AEF7E0 /* Main.storyboard */,
 				F390BFD0293B849900AEF7E0 /* Assets.xcassets */,
 				F390BFD2293B849900AEF7E0 /* LaunchScreen.storyboard */,
 				F390BFD5293B849900AEF7E0 /* Info.plist */,
+				F390BFDD293B8A9500AEF7E0 /* OnePieceClass.swift */,
 			);
 			path = OnePieceBook;
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F390BFCC293B849700AEF7E0 /* ViewController.swift in Sources */,
+				F390BFDC293B873100AEF7E0 /* detailsVC.swift in Sources */,
+				F390BFDE293B8A9500AEF7E0 /* OnePieceClass.swift in Sources */,
 				F390BFC8293B849700AEF7E0 /* AppDelegate.swift in Sources */,
 				F390BFCA293B849700AEF7E0 /* SceneDelegate.swift in Sources */,
 			);
